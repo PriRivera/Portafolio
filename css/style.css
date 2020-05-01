@@ -12,7 +12,9 @@ div.blueBackground {
     z-index: -1000;
     padding: 0em;
 }
-
+.text-nav{
+    color: #fff;
+}
 h1 {
     font-weight: bolder;
     font-size: 5rem;
@@ -210,6 +212,9 @@ div.heightWhite {
     }
     .responsive-phone{
         left: 15%;
+    }
+    .text-nav{
+        color: #000;
     }
  
 }
