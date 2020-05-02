@@ -2,7 +2,9 @@ nav {
     font-family: 'Montserrat';
     font-weight: 800;
 }
-
+.footer-margin{
+    padding-left: 5rem;
+}
 body {
     font-family: 'Montserrat';
 }
@@ -212,11 +214,12 @@ div.heightWhite {
     div.heightWhite {
         height: 20rem;
     }
-    .responsive-phone{
-        left: 15%;
-    }
+ 
     .text-white{
         color:#000 !important;
+    }
+    .footer-margin{
+        padding-left: 0rem;
     }
  
 }
