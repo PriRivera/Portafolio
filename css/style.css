@@ -36,6 +36,7 @@ div.heightWhite {
     align-self: center;
     left: 35%;
     margin-top: 3em;
+    width: 40%;
 }
 .index-text{
     z-index: 1000;
@@ -200,7 +201,7 @@ div.heightWhite {
     .primage{
         position: relative;
         left: 0%;
-
+        width: 100%;
     }
     .index-text{
         position: relative; 
@@ -225,7 +226,16 @@ div.heightWhite {
 }
 
 
-@media (max-width: 767.98px) { }
+@media (max-width: 767.98px) {
+    div.blueBackground{
+        display: none;
+    } 
+    .primage{
+        position: relative;
+        left: 0%;
+        width: 100%;
+    }
+ }
 
 
 @media (max-width: 991.98px) { 
